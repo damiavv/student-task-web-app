@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getFunctions } from "firebase/functions";
 const firebaseConfig = {
-apiKey: "YOUR_API_KEY",
-authDomain: "YOUR_PROJECT.firebaseapp.com",
-projectId: "YOUR_PROJECT_ID",
-storageBucket: "YOUR_STORAGE_BUCKET",
-messagingSenderId: "YOUR_SENDER_ID",
-appId: "YOUR_APP_ID"
+apiKey: "AIzaSyAGTDnbe0Z5XxYCzEbD8Ng5ojyAvE41-Fk",
+authDomain: "task-planner-aa0f2.firebaseapp.com",
+projectId: "task-planner-aa0f2",
+storageBucket: "task-planner-aa0f2.firebasestorage.app",
+messagingSenderId: "161984886013",
+appId: "1:161984886013:web:f280d6bc1e2ac2e284fa94"
 };
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
